@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <!-- 1/ Requête pour créer une base de données -->
+        <pre>
+        CREATE DATABASE nom_de_la_base;
+        </pre>
+
+        <!-- 2/ Requête pour créer une table dans la DB -->
+        <pre>
+        USE nom_de_la_base;
+        CREATE TABLE nom_de_la_table (
+            id INT PRIMARY KEY,
+            nom VARCHAR(100),
+            age INT
+        );
+        </pre>
+
+        <!-- 3/ Requête pour insérer des données dans la table -->
+        <pre>
+        INSERT INTO nom_de_la_table (id, nom, age) VALUES (1, 'Amina', 27);
+        INSERT INTO nom_de_la_table (id, nom, age) VALUES (2, 'Ahmed', 37);
+        INSERT INTO nom_de_la_table (id, nom, age) VALUES (3, 'Fatima', 47);
+        </pre>
+    </div>
+</body>
+
+</html>
